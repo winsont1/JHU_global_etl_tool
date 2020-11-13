@@ -24,7 +24,7 @@ You may also choose to just use this Google Sheet data source for your analyses.
 *Note: Total Active = Total Confirmed - Total Deaths - Total Recovered*
 
 ## How To Deploy
-There are 3 main files you will need to deploy in Google Cloud Platform Functions.
+There are 3 files you will need to deploy in Google Cloud Platform Functions, the main ETL code being 'main.py.
 
 - main.py
 - new_credentials.json
