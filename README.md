@@ -38,8 +38,7 @@ You may choose to extend the code or change the target to a database other than 
 The language you will need to deploy it in GCP Functions is Python. I used Python 3.7 for my implementation.
 
 ## Terms of Use
-The code in this repository is open-source, and is free to use without restriction.
+Please read JHU's Terms of Use for this dataset on their [page](https://github.com/CSSEGISandData/COVID-19).
+The rest of the code in this repository is open-source, and is free to use.
 
-Please however, read JHU's Terms of Use for this dataset on their [page](https://github.com/CSSEGISandData/COVID-19).
-
-Thanks! :)
+Thanks
