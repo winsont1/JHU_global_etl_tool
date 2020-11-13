@@ -12,7 +12,7 @@ You may also choose to just use this Google Sheet data source for your analyses.
 
 ## Available Data Columns
 - Country
-- State *-needs some configuration*
+- State *(needs some configuration)*
 - Date
 - Total Confirmed
 - Total Deaths
