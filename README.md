@@ -2,9 +2,7 @@
 
 This Python ETL tool (Extract, Transform, Load) was created to ingest and populate a Google Sheets worksheet with Country-level Covid-19 time-series data collated by JHU CSSE's team.
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
-My personal tool of preference to perform descriptive analysis is [Tableau Public](https://public.tableau.com/en-us/s/), but you may use whatever you prefer.
-
-You may extend the code or change the target to a database other than Google Sheets to meet your needs.
+My personal tool of preference to perform descriptive analysis is [Tableau Public](https://public.tableau.com/profile/winson.tan3319#!/vizhome/LiveGlobalCovid-19Dashboard/NewCovid-19CasesDashboardB?publish=yes), but you may use whatever you prefer.
 
 Here's a link to the live data source : https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series.
 
@@ -35,6 +33,7 @@ These files are meant to be deployed in GCP Functions. Please refer to https://c
 
 Please also refer to https://developers.google.com/sheets/api/quickstart/python to set up your own Google Sheet workbook to write to. You will need to replace the name of the workbook in the 'main.py' file.
 
+You may choose to extend the code or change the target to a database other than Google Sheets to meet your needs. Kindly adjust the 'write' portion of the 'main.py' code accordingly.
 
 ## Language
 The language you will need to deploy it in is Python. I used Python 3.7 for my implementation.
