@@ -1,17 +1,15 @@
 # John Hopkins University CSSE Covid-19 Dataset - ETL Tool to Google Sheets
 
-This Python ETL tool (Extract, Transform, Load) was created to ingest and populate a Google Sheets worksheet with Country-level Covid-19 time-series data collated by JHU CSSE's team.
+This Python ETL tool was created to ingest daily-updated Covid-19 time-series data from [JHU CSSE's Github repo](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series), and then to populate a Google Sheets worksheet.
 
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
 
-Here's a link to [JHU's live Github repo](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series).
-
 Alternatively, here's a link to a live [Google Sheet implementation](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) of this tool.
-You may also choose to just use this Google Sheet data source for your analyses.
+You may also choose to just use this Google Sheet data source for your analyses instead of deploying your own ETL tool.
 
 ## Available Data Columns
 - Country
-- State *(needs some configuration)*
+- State  *(needs some configuration)*
 - Date
 - Total Confirmed
 - Total Deaths
