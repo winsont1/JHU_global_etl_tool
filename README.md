@@ -4,9 +4,9 @@ This Python ETL tool (Extract, Transform, Load) was created to ingest and popula
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
 My personal tool of preference to perform descriptive analysis is [Tableau Public](https://public.tableau.com/profile/winson.tan3319#!/vizhome/LiveGlobalCovid-19Dashboard/NewCovid-19CasesDashboardB?publish=yes), but you may use whatever you prefer.
 
-Here's a link to the live data source : https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series.
+Here's a [link](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) to the live Github data source.
 
-Alternatively, here's a link to a live Google Sheet implementation of this tool https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing.
+Alternatively, here's a [link](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) to a live Google Sheet implementation of this tool.
 You may choose to just use this Google Sheet data source for your analyses.
 
 ## Available Data Columns
