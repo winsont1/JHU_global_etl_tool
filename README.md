@@ -2,7 +2,7 @@
 
 This Python ETL tool (Extract, Transform, Load) was created to ingest and populate a Google Sheets worksheet with Country-level Covid-19 time-series data collated by JHU CSSE's team.
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
-My personal tool of preference to perform descriptive analysis is Tableau Public, but you may use whatever you prefer.
+My personal tool of preference to perform descriptive analysis is [Tableau Public](https://public.tableau.com/en-us/s/), but you may use whatever you prefer.
 
 You may extend the code or change the target to a database other than Google Sheets to meet your needs.
 
