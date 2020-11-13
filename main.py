@@ -134,7 +134,7 @@ def calc_daily_change_column(dataframe, dict_key):
 
 def scheduled_job(event, context):
   # 'scheduled_job' is Google Cloud Functions entry point
-  # Run calculations for all 3 dataframes with defined functions
+  # Run calculations for all 3 dataframes with defined functions above
   list_of_dataframes = get_dataframes_list()
 
   for dataframe in list_of_dataframes:
@@ -156,13 +156,13 @@ def scheduled_job(event, context):
 
   # Replace incorrect negative 'total_active' values with 0
   final_result.loc[(final_result.total_active<0), 'total_active'] = 0
-  final_result = final_result.drop(['total_confirmed'], axis=1)
+  final_result = final_result.drop(['state'], axis=1)
 
   final_result['date'] = final_result['date'].astype(str)
 
   # Write to covid-19_datasheet_JHU_CSSE Google Sheet
   client = authenticate()
-  worksheet = client.open('covid-19_datasheet_JHU_CSSE').sheet1
+  worksheet = client.open('[REPLACE_WITH_TITLE_OF_YOUR_GOOGLE_WORKBOOK]').sheet1
   worksheet.update([final_result.columns.values.tolist()] + final_result.values.tolist())
 
   # To Do: Write daily deaths dataframe to CSV file - for back up in Google drive
