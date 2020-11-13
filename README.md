@@ -3,7 +3,6 @@
 This Python ETL tool (Extract, Transform, Load) was created to ingest and populate a Google Sheets worksheet with Country-level Covid-19 time-series data collated by JHU CSSE's team.
 
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
-My personal tool of preference to perform descriptive analysis is [Tableau Public](https://public.tableau.com/profile/winson.tan3319#!/vizhome/LiveGlobalCovid-19Dashboard/NewCovid-19CasesDashboardB?publish=yes).
 
 Here's a [link](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) to JHU's live Github data source.
 
