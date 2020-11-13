@@ -8,7 +8,7 @@ My personal tool of preference to perform descriptive analysis is [Tableau Publi
 Here's a [link](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) to JHU's live Github data source.
 
 Alternatively, here's a [link](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) to a live Google Sheet implementation of this tool.
-You may choose to just use this Google Sheet data source for your analyses.
+You may also choose to just use this Google Sheet data source for your analyses.
 
 ## Available Data Columns
 - Country
@@ -42,6 +42,6 @@ The language you will need to deploy it in GCP Functions is Python. I used Pytho
 ## Terms of Use
 The code in this repository is open-source, and is free to use without restriction.
 
-Please however, kindly read JHU's Terms of Use for this dataset on their page https://github.com/CSSEGISandData/COVID-19.
+Please however, kindly read JHU's Terms of Use for this dataset on their [page](https://github.com/CSSEGISandData/COVID-19).
 
 Thank you! :)
