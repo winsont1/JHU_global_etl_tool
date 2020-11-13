@@ -40,5 +40,3 @@ The language you will need to deploy it in GCP Functions is Python. I used Pytho
 ## Terms of Use
 Please read JHU's Terms of Use for this dataset on their [page](https://github.com/CSSEGISandData/COVID-19).
 The rest of the code in this repository is open-source, and is free to use.
-
-Thanks
