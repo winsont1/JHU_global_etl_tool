@@ -4,7 +4,7 @@ This Python ETL tool (Extract, Transform, Load) was created to ingest and popula
 
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
 
-Here's a link to [JHU's live Github data source](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series).
+Here's a link to [JHU's live Github data repo](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series).
 
 Alternatively, here's a link to a live [Google Sheet implementation](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) of this tool.
 You may also choose to just use this Google Sheet data source for your analyses.
