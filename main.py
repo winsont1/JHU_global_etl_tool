@@ -156,7 +156,6 @@ def scheduled_job(event, context):
 
   # Replace incorrect negative 'total_active' values with 0
   final_result.loc[(final_result.total_active<0), 'total_active'] = 0
-  final_result = final_result.drop(['state'], axis=1)
 
   final_result['date'] = final_result['date'].astype(str)
 
