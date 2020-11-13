@@ -4,8 +4,8 @@ This Python ETL tool was created to ingest daily-updated Covid-19 time-series da
 
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
 
-Alternatively, here's a link to a live [Google Sheet implementation](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) of this tool.
-You may also choose to just use this Google Sheet data source for your analyses instead of deploying your own ETL tool.
+Alternatively, here's a link to a live [Google Sheet](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) implementation of this tool.
+You may also choose to just use this Google Sheet data source for your analyses instead of deploying your own tool.
 
 ## Available Data Columns
 - Country
@@ -40,6 +40,6 @@ The language you will need to deploy it in GCP Functions is Python. I used Pytho
 ## Terms of Use
 The code in this repository is open-source, and is free to use without restriction.
 
-Please however, kindly read JHU's Terms of Use for this dataset on their [page](https://github.com/CSSEGISandData/COVID-19).
+Please however, read JHU's Terms of Use for this dataset on their [page](https://github.com/CSSEGISandData/COVID-19).
 
 Thanks! :)
