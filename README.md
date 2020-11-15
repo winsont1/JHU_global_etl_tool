@@ -2,7 +2,7 @@
 
 This Python ETL tool was created to ingest daily-updated Covid-19 time-series data (Confirmed, Recovered, Deaths) from [JHU CSSE's Github repo](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series), and then to populate a Google Sheets worksheet.
 
-Screenshot of JHU Raw Data: 
+**Screenshot of JHU Raw Data:**
 ![JHU_raw_data](https://user-images.githubusercontent.com/16263869/99160853-f1516b80-273f-11eb-8c5b-ee7eb306e801.PNG)
 
 
@@ -11,7 +11,7 @@ The objective of this tool is to allow users (targeted at researchers) the flexi
 Alternatively, here's a link to a live [Google Sheet](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) implementation of this tool.
 You may also choose to just use this Google Sheet data source for your analyses instead of deploying your own tool.
 
-Screenshot of Gsheets end-result:
+**Screenshot of Gsheets end-result:**
 ![Gsheets_end_result](https://user-images.githubusercontent.com/16263869/99160861-0af2b300-2740-11eb-9676-63b5c324e865.PNG)
 
 ## Available Data Columns
@@ -35,7 +35,7 @@ There are 3 files you will need to deploy in Google Cloud Platform Functions, th
 - new_credentials.json
 - requirements.txt
 
-Screenshot of Google Cloud Functions deployment:
+**Screenshot of Google Cloud Functions deployment:**
 ![Google_Cloud](https://user-images.githubusercontent.com/16263869/99160864-15ad4800-2740-11eb-8e4f-d81f5aae27d7.PNG)
 
 
