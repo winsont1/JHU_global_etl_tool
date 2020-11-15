@@ -6,6 +6,8 @@ The objective of this tool is to allow users (targeted at researchers) the flexi
 
 Alternatively, here's a link to a live [Google Sheet](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) implementation of this tool.
 You may also choose to just use this Google Sheet data source for your analyses instead of deploying your own tool.
+Screenshot:
+https://github.com/winsont1/JHU_global_etl_tool/issues/3#issue-743159269
 
 ## Available Data Columns
 - Country
