@@ -1,4 +1,4 @@
-# John Hopkins University CSSE Covid-19 Dataset - ETL Tool to Google Sheets
+# John Hopkins University Covid-19 ETL Tool: Github to Google Sheets
 
 This Python ETL tool was created to ingest, unpivot and prepare daily-updated Covid-19 time-series data (Confirmed, Recovered, Deaths) from [JHU CSSE's Github repo](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series), followed by populating a Google Sheets worksheet.
 
