@@ -4,6 +4,7 @@ This Python ETL tool was created to ingest, unpivot and prepare daily-updated Co
 
 
 **Screenshot of JHU Raw Data:**
+
 ![JHU_raw_data](https://user-images.githubusercontent.com/16263869/99160853-f1516b80-273f-11eb-8c5b-ee7eb306e801.PNG)
 
 
@@ -14,6 +15,7 @@ You may also choose to just use this Google Sheet data source for your analyses 
 
 
 **Screenshot of Gsheets end-result:**
+
 ![Gsheets_end_result](https://user-images.githubusercontent.com/16263869/99160861-0af2b300-2740-11eb-9676-63b5c324e865.PNG)
 
 
@@ -40,6 +42,7 @@ There are 3 files you will need to deploy in Google Cloud Platform Functions, th
 
 
 **Screenshot of Google Cloud Functions deployment:**
+
 ![Google_Cloud](https://user-images.githubusercontent.com/16263869/99160864-15ad4800-2740-11eb-8e4f-d81f5aae27d7.PNG)
 
 
