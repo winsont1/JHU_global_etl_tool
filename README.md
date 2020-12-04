@@ -11,7 +11,6 @@ This Python ETL tool was created to ingest, unpivot and prepare daily-updated Co
 The objective of this tool is to allow users (targeted at researchers) the flexibility to conduct your own custom analyses of live Covid data.
 
 Alternatively, here's a link to a live [Google Sheet](https://docs.google.com/spreadsheets/d/1Fk3r4bwZIxQpB-4u7l8Qj4cKTauRLIQX0ISfiLYdxuY/edit?usp=sharing) implementation of this tool.
-You may also choose to just use this Google Sheet data source for your analyses instead of deploying your own tool. Please reach out to me at winson.t8n@gmail.com for access to the Google credentials.
 
 
 **Screenshot of Gsheets end-result:**
